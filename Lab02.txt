@@ -1,17 +1,3 @@
-================================================================================================
-Institucion..: Universidad Técnica Nacional
-Sede.........: Del Pacífico
-Carrera......: Tecnologías de Información
-Curso........: ITI-621 - Tecnologías y Sistema Web III
-Periodo......: 3-2024
-Documento....: Lab02.txt
-Objetivos....: Demostración de un Lab02 PHP con el paradigma del modelo vista controlador.
-Profesor.....: Jorge Ruiz (york)
-Estudiantes..: Bairon Vega, Dorian Humaña, Deyfran Aragon
-================================================================================================
-
-- Creación de la Base de Datos:
-
 create database lab02;
 
 use lab02;
