@@ -1,10 +1,10 @@
 <hr>
 <div class="col-4 div_pi">
-    <strong>Grupo: </strong>Pegajosos<br />
-    <strong>Integrantes: </strong>Bairon, Dorian & Deyfran<br />   
-    <strong>Ubicados: </strong>En el aula....donde mas.<br />
-    <strong>eMail: </strong> <a href="mailto:pegajosos@gmail.com?subject=Solicito información">pegajosos@gmail.com</a><br />
-    <strong>Teléfono: </strong>26 60 70 00
+    <strong>Grupo: </strong>Creativos<br />
+    <strong>Integrantes: </strong>Keneth Jhontathan y Zailyn<br />   
+    <strong>Ubicados: </strong>Lab302<br />
+    <strong>eMail: </strong> <a href="mailto:kegonzalezca@est.utn.ac.cr?subject=Solicito información">kegonzalezca@est.utn.ac.cr</a><br />
+    <strong>Teléfono: </strong>85564804
 </div>
 <div class="col-4 div_pc">
     Carrera de Tecnologías de Información<br />
