@@ -20,14 +20,14 @@
                 <p class="lead">Este blog es mantenido por un grupo de talentosos estudiantes de la Carrera de Tecnologías de Información dandole un toque de malisia indigena. Aquí compartimos todo lo relacionado con la tecnología y nuestra cultura, desde tutoriales hasta reseñas de las últimas novedades.</p>
                 <div class="row">
                     <div class="col-md-6">
-                        <h5><strong>Grupo: Pegajosos</strong></h5>
+                        <h5><strong>Grupo: Creativos</strong></h5>
                     </div>
                     <div class="col-md-6">
                         <h5><strong>Integrantes:</strong></h5>
                         <ul>
-                            <li>Bairon Vega</li>
-                            <li>Dorian Humaña</li>
-                            <li>Deyfran Aragon</li>
+                            <li>Keneth Gonzalez</li>
+                            <li>Jhonathan Zuñiga</li>
+                            <li>Zaylin Lopez</li>
                         </ul>
                     </div>
                 </div>
