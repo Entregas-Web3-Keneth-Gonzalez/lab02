@@ -1,0 +1,45 @@
+================================================================================================
+Institucion..: Universidad Técnica Nacional
+Sede.........: Del Pacífico
+Carrera......: Tecnologías de Información
+Curso........: ITI-621 - Tecnologías y Sistema Web III
+Periodo......: 3-2024
+Documento....: Lab02.txt
+Objetivos....: Demostración de un Lab02 PHP con el paradigma del modelo vista controlador.
+Profesor.....: Jorge Ruiz (york)
+Estudiantes..: Bairon Vega, Dorian Humaña, Deyfran Aragon
+================================================================================================
+
+- Creación de la Base de Datos:
+
+create database lab02;
+
+use lab02;
+
+create table usuarios(
+	id tinyint unsigned not null auto_increment,
+	nombre varchar(45)  not null,
+	contrasena varchar(80) not null,
+	primary key (id)
+)engine=innodb default charset=utf8 collate=utf8_bin;
+ALTER TABLE usuarios ADD COLUMN rol ENUM('usuario', 'admin') NOT NULL DEFAULT 'usuario';
+
+CREATE TABLE articulos (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  titulo VARCHAR(255) NOT NULL,
+  contenido TEXT NOT NULL,
+  fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+ALTER TABLE articulos ADD categoria VARCHAR(100) NOT NULL;
+ALTER TABLE articulos ADD imagen VARCHAR(255) NULL;
+
+
+CREATE TABLE comentarios (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  articulo_id INT NOT NULL,
+  autor VARCHAR(255) NOT NULL,
+  contenido TEXT NOT NULL,
+  fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (articulo_id) REFERENCES articulos(id) ON DELETE CASCADE
+);
+
